@@ -1,10 +1,10 @@
 # Site settings
 title: 梵海设计
 SEOTitle: 梵海视觉设计工作室
-header-img: https://imglf5.lf127.net/img/8f602212a6cf214a/WFZTYkQ5aWdjT0Nwb0QyajVVU2pXTnFLQjhKcVRrdVp4ODhXamx4T2JzRT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg
+header-img: https://imglf5.lf127.net/img/8f602212a6cf214a/WFZTYkQ5aWdjT0Nwb0QyajVVU2pXTnFLQjhKcVRrdVp4ODhXamx4T2JzRT0.jpg
 email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
+description: "这里是梵海设计，设计的本质是为客户解决问题 | 用"
+keyword: "梵海视觉, 梵海设计,  工作室网站, 互联网, 品牌设计, 包装设计，品牌策划，电商视觉"
 url: "https://huangxuan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
