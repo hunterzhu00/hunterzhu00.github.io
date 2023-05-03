@@ -1,11 +1,11 @@
 # Site settings
 title: 梵海品牌设计
 SEOTitle: 梵海视觉设计工作室
-header-img: home-bg333.jpg
-email: huxpro@gmail.com
+header-img: home-bg.jpg
+email: fanhidesign@3619.com
 description: "这里是梵海设计，设计的本质是为客户解决问题 | 用"
 keyword: "梵海视觉, 梵海设计,  工作室网站, 互联网, 品牌设计, 包装设计，品牌策划，电商视觉"
-url: "https://huangxuan.me" # your host, for absolute URL
+url: "https://fanhidesign.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.

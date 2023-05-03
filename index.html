@@ -1,13 +1,11 @@
-
-<!-- saved from url=(0030)https://hunterzhu00.github.io/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>---
+---
 layout: page
-description: "「离开世界之前 一切都是过程」"
+description: "「设计改变世界」"
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="file:///Users/h/Documents/hunterzhu00.github.io/%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D">
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
         </h2>
@@ -32,18 +30,17 @@ description: "「离开世界之前 一切都是过程」"
 {% endfor %}
 
 <!-- Pager -->
-{% if paginator.total_pages &gt; 1 %}
+{% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="file:///Users/h/Documents/hunterzhu00.github.io/%7B%7B%20paginator.previous_page_path%20%7C%20prepend:%20site.baseurl%20%7C%20replace:%20&#39;//&#39;,%20&#39;/&#39;%20%7D%7D">← Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="file:///Users/h/Documents/hunterzhu00.github.io/%7B%7B%20paginator.next_page_path%20%7C%20prepend:%20site.baseurl%20%7C%20replace:%20&#39;//&#39;,%20&#39;/&#39;%20%7D%7D">Older Posts →</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
     </li>
     {% endif %}
 </ul>
 {% endif %}
-</body></html>
